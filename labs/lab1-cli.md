@@ -1,10 +1,74 @@
-# Lab 1: The Command Line
+# Case Study 1 part 2: Visual Studio (Cursor) and Linux Command Line. 
 
-Follow all the steps below for practice with the command line. At the bottom are instructions for commands you should write for each prompt, saved to a text file you create using the command line. Paste the contents of that file to the Lab assignment page for grading.
+## Downloading and install Cursor. 
+Cursor is an great integrated development environment built ontop of visual studio code.  Cursor has LLM integration built-in so that you can chat with a update your code. We strongly encourage you to do this. You tool help you build and debug.  
+Visit <a href="https://cursor.com"> https://cursor.com </a> and download the Cursor IDE for your specific system. 
 
-Complete the following using the <a href="https://shell.cloud.google.com/" target="_new"><b>Google Shell</b></a>. Expand the black terminal area to make it easier to work.
+### Connecting the the University of Virginia High Performance Computing Cluster. 
+Connect to the cluster using ssh. Once you launch cursor and select your preferences; click new ssh table to begin the process of connecting to the cluster.  
+![Select ssh](/DS2022/images/labs/lab1/connecttossh.png)
+
+Now type your_computing_id@login.hpc.virginia.edu into the command window and then type in your host when prompted. 
+![host info](images/labs/lab1/loginhostinfo.png)
+
+Finalling click open folder and select the option /home/your_computing_id/
+![OpenFolder](images/labs/lab1/Openfolder.png)
+
+You development environment is now connected to the cluster. 
+
+
+# Case Study 1 Part 2: Visual Studio (Cursor) and Linux Command Line
+
+## Step 1: Download and Install Cursor
+Cursor is a special version of Visual Studio Code that has AI (LLM) features built in.  
+This means you can chat with it, ask questions, and even get help fixing your code.  
+It’s like having a coding assistant built right into your editor.  
+
+Go to [https://cursor.com](https://cursor.com)  
+Download the installer for your computer (Mac, Windows, or Linux)  
+Run the installer to set up Cursor on your system  
+
+---
+
+## Step 2: Open Cursor and Set Up SSH
+We will use Cursor to connect directly to the **University of Virginia High Performance Computing (HPC) Cluster**.
+
+1. Launch **Cursor**.  
+2. Go to your preferences (the settings menu).  
+3. Click **Connect Via SSH ** to begin creating a connection.  
+
+![Select SSH](/DS2022/images/labs/lab1/connecttossh.png)
+
+---
+
+## Step 3: Log In to the HPC Cluster
+1. In the SSH connection box, type:  
+
+your_computing_id@login.hpc.virginia.edu
+
+Replace `your_computing_id` with your actual UVA computing ID.  
+
+![Host Info](images/labs/lab1/loginhostinfo.png)
+
+2. When prompted, type in your **password**.  
+
+## Step 4: Open Your Home Folder
+1. After you log in, click **Open Folder**.  
+2. Choose this option:  
+
+/home/your_computing_id/
+
+
+![Open Folder](images/labs/lab1/Openfolder.png)
+
+---
+That’s it! Your Cursor editor is now connected to the UVA HPC cluster.  
+From here, you can write code locally in Cursor and run it on the cluster without leaving the editor. 
+
+
 
 ## Getting Oriented to your Home Directory
+Follow all the steps below for practice with the command line. At the bottom are instructions for commands you should write for each prompt, saved to a text file you create using the command line. Paste the contents of that file to the Lab assignment page for grading.
 
 1. Change directories to your home directory by issuing the `cd ~` command. `cd` is short for "change directory". This is a shortcut to your home directory.
 
@@ -534,22 +598,7 @@ Test it out by echoing the `env` variable you created:
 echo $FAVORITE_ICE_CREAM
 ```
 
-## Your Turn
+##  Quiz Time. 
+Great let's answer copy of quiz question. To make sure that you are comfortable in with terminal. 
 
-Complete the following steps on your own. Save the commands necessary to complete each of these steps in a single text file. This should contain 8 lines of commands (along with these 8 prompts). Copy and paste those lines to the Lab 1 assignment in Canvas.
-
-1. Using terminal and/or git-bash on your local computer, change directories to your home directory. 
-
-2. Create a "development" subdirectory within your home directory.
-
-3. Touch a file within that directory named "README.md".
-
-4. Echo the name "DS2022" and redirect it into that file.
-
-5. Echo your Google username and append it to the same file.
-
-6. Touch another file within that directory named "bash_history".
-
-7. Use the redirect character to pass your bash history into that file.
-
-8. Either tar or zip the "development" subdirectory with both files inside of it.
+Finally submit a screenshot of your Cursor IDE providing that you have correctly setup everything up. 
