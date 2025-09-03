@@ -6,13 +6,13 @@ Visit <a href="https://cursor.com"> https://cursor.com </a> and download the Cur
 
 ### Connecting the the University of Virginia High Performance Computing Cluster. 
 Connect to the cluster using ssh. Once you launch cursor and select your preferences; click new ssh table to begin the process of connecting to the cluster.  
-![Select ssh](/DS2022/images/labs/lab1/connecttossh.png)
+![Select ssh](../images/labs/lab1/connecttossh.png)
 
 Now type your_computing_id@login.hpc.virginia.edu into the command window and then type in your host when prompted. 
-![host info](images/labs/lab1/loginhostinfo.png)
+![host info](../images/labs/lab1/loginhostinfo.png)
 
 Finalling click open folder and select the option /home/your_computing_id/
-![OpenFolder](images/labs/lab1/Openfolder.png)
+![OpenFolder](../images/labs/lab1/Openfolder.png)
 
 You development environment is now connected to the cluster. 
 
