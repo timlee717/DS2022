@@ -1,23 +1,3 @@
-# Case Study 1 part 2: Visual Studio (Cursor) and Linux Command Line. 
-
-## Downloading and install Cursor. 
-Cursor is a great integrated development environment built on top of visual studio code.  Cursor has LLM integration built-in so that you can chat with and update your code. We strongly encourage you to do this. This tool help you build and debug.  
-Visit <a href="https://cursor.com"> https://cursor.com </a> and download the Cursor IDE for your specific system. 
-
-### Connecting to the University of Virginia High Performance Computing Cluster. 
-Connect to the cluster using ssh. Once you launch cursor and select your preferences; click new ssh table to begin the process of connecting to the cluster.  
-![Select ssh](../images/labs/lab1/connecttossh.png)
-
-Now type your_computing_id@login.hpc.virginia.edu into the command window and then type in your host when prompted. 
-![host info](../images/labs/lab1/loginhostinfo.png)
-
-Finally click open folder and select the option /home/your_computing_id/
-
-![OpenFolder](../images/labs/lab1/Openfolder.png)
-
-You development environment is now connected to the cluster. 
-
-
 # Case Study 1 Part 2: Visual Studio (Cursor) and Linux Command Line
 
 ## Step 1: Download and Install Cursor
@@ -38,7 +18,7 @@ We will use Cursor to connect directly to the **University of Virginia High Perf
 2. Go to your preferences (the settings menu).  
 3. Click **Connect Via SSH ** to begin creating a connection.  
 
-![Select SSH](/DS2022/images/labs/lab1/connecttossh.png)
+![Select SSH](../images/labs/lab1/connecttossh.png)
 
 ---
 
@@ -49,7 +29,7 @@ your_computing_id@login.hpc.virginia.edu
 
 Replace `your_computing_id` with your actual UVA computing ID.  
 
-![Host Info](images/labs/lab1/loginhostinfo.png)
+![Host Info](../images/labs/lab1/loginhostinfo.png)
 
 2. When prompted, type in your **password**.  
 
@@ -60,7 +40,7 @@ Replace `your_computing_id` with your actual UVA computing ID.
 /home/your_computing_id/
 
 
-![Open Folder](images/labs/lab1/Openfolder.png)
+![Open Folder](../images/labs/lab1/Openfolder.png)
 
 ---
 That’s it! Your Cursor editor is now connected to the UVA HPC cluster.  
@@ -589,7 +569,7 @@ Save and close the file in `nano` by pressing Ctrl+O and then Return, then Ctrl+
 
 Finally, to refresh your `bash` shell to use that variable, `source` that file. Sourcing triggers your shell to re-process the contents of `.bashrc`:
 
-```
+```s
 source ~/.bashrc
 ```
 
