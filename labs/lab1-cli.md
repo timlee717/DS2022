@@ -166,12 +166,12 @@ cat .bashrc
 ```
 
 But every file or folder can be referred to by its full path within the file structure.
-For example, your home directory in the Google Shell might look like `/home/mst3k`, so you can also cat
+For example, your home directory in the Shell might look like `/home/your_computing_id`, so you can also cat
 things using their "full path":
 
 ```
-cat /home/mst3k/.bashrc
-cat /home/mst3k/file1
+cat /home/your_computing_id/.bashrc
+cat /home/your_computing_id/file1
 ```
 
 This is extremely useful since it means *you do not have to change into a directory just to work with its contents*.
