@@ -155,7 +155,7 @@ cat .bashrc
 ```
 
 ```
-cat README-cloudshell.txt
+cat .bash_history
 ```
 
 8. Whenever you are in a directory you can read, edit, or list a file easily using its short
