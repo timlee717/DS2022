@@ -1,17 +1,18 @@
 # Case Study 1 part 2: Visual Studio (Cursor) and Linux Command Line. 
 
 ## Downloading and install Cursor. 
-Cursor is an great integrated development environment built ontop of visual studio code.  Cursor has LLM integration built-in so that you can chat with a update your code. We strongly encourage you to do this. You tool help you build and debug.  
+Cursor is a great integrated development environment built on top of visual studio code.  Cursor has LLM integration built-in so that you can chat with and update your code. We strongly encourage you to do this. This tool help you build and debug.  
 Visit <a href="https://cursor.com"> https://cursor.com </a> and download the Cursor IDE for your specific system. 
 
-### Connecting the the University of Virginia High Performance Computing Cluster. 
+### Connecting to the University of Virginia High Performance Computing Cluster. 
 Connect to the cluster using ssh. Once you launch cursor and select your preferences; click new ssh table to begin the process of connecting to the cluster.  
 ![Select ssh](../images/labs/lab1/connecttossh.png)
 
 Now type your_computing_id@login.hpc.virginia.edu into the command window and then type in your host when prompted. 
 ![host info](../images/labs/lab1/loginhostinfo.png)
 
-Finalling click open folder and select the option /home/your_computing_id/
+Finally click open folder and select the option /home/your_computing_id/
+
 ![OpenFolder](../images/labs/lab1/Openfolder.png)
 
 You development environment is now connected to the cluster. 
@@ -355,7 +356,7 @@ cat mobydick.txt | grep "Captain" | wc -l
 
 How many lines contain "Captain" in this text?
 
-**Site note:** `grep` is case-sensitive, so what if we ran the same command searching for lower-case "captain"?
+**Side note:** `grep` is case-sensitive, so what if we ran the same command searching for lower-case "captain"?
 
 ```
 cat mobydick.txt | grep "captain" | wc -l
@@ -599,6 +600,6 @@ echo $FAVORITE_ICE_CREAM
 ```
 
 ##  Quiz Time. 
-Great let's answer copy of quiz question. To make sure that you are comfortable in with terminal. 
+Great let's answer a couple of quiz questions. To make sure that you are comfortable with the terminal. 
 
-Finally submit a screenshot of your Cursor IDE providing that you have correctly setup everything up. 
+Finally submit a screenshot of your Cursor IDE proving that you have correctly set everything up. 
