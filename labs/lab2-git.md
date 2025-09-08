@@ -16,7 +16,7 @@ Follow all the steps below for practice using Git and GitHub.
 ## 2. Fork a Repository and Submit a Pull Request (Command-Line)
 
 1. Go to https://github.com/uvasds-systems/DS2022/ and fork the repository.
-2. Clone your fork to your account in cluster computer, and open in a Cursor by connecting to the cluster.
+2. Clone your fork to your account in cluster computer, and open in a Cursor. 
 3. Within the `people` directory create a subdirectory named with your computing ID, i.e. `nem2p` or `mst3k`, etc.
 4. Inside of that subdirectory, create a README.md file.
 5. Paste the code below into that file, and fill out the appropriate fields. If you'd like to include an image of yourself (jpg, png, gif, etc.) add it to your subdirectory as well. Introduce yourselves! If you need an example for reference, see [this page](../people/nem2p/README.md). Here is a Markdown [reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for formatting your page.
